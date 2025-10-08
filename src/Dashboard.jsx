@@ -31,7 +31,7 @@ const Dashboard = () => {
   const [loading, setLoading] = useState(true);
   const [fetchError, setFetchError] = useState(null);
 
-  const apiUrl = "http://localhost:5000/customers";
+  const apiUrl = "http://localhost:5000";
 
   // Fetch customers and calculate risk scores from backend
   useEffect(() => {
